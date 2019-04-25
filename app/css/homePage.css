@@ -1,0 +1,212 @@
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 10px;
+  }
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -2;
+}
+
+.overlay {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+#introP {
+  font-size: 16px;
+}
+
+.content {
+  width: 300px;
+  color: white;
+  margin-top: 150px;
+  border: 2px solid white;
+  padding: 50px;
+}
+
+img#arrow {
+  animation: MoveUpDown 3s linear infinite;
+  width: 50px;
+  height: 50px;
+  bottom: 0;
+  position: absolute;
+}
+
+img#arrow:hover {
+  cursor: pointer;
+}
+
+.botBorder {
+  border: 3px solid white;
+  width: 80px;
+  margin-left: 107px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.botBorder-black {
+  border: 3px solid black;
+  width: 80px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* derechoEvent.js */
+#derechoSection {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.titleContents {
+  width: 1000px;
+  display: flex;
+
+}
+
+#introduction {
+  width: 1000px;
+  text-align: right;
+  margin-top: 50px;
+}
+
+#brewingStorm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+ul#contents {
+  background-color: #ffffff;
+  padding: 50px 40px;
+  border: 2px solid black;
+  position: absolute;
+  margin: 0;
+  text-align: left;
+  margin-top: 50px;
+}
+
+ul#contents li {
+  list-style-type: none;
+  margin: 15px 0;
+}
+
+.paragraph {
+  width: 1000px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.point {
+  display: flex;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.icon {
+  width: 180px;
+  align-self: center;
+  text-align: center;
+}
+
+.desc {
+  font-size: 18px;
+  line-height: 2;
+  text-align: justify;
+  align-self: center;
+}
+
+a .button {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  color: gray;
+  transition: .5s;
+  display: inline-block;
+  float: right;
+}
+
+a .button:hover {
+  background-color: #dddddd;
+  color: black;
+}
+
+.quote {
+  font-family: 'Lora', serif;
+  font-size: 25px;
+  font-style: italic;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  color: #aaa;
+  text-align: center;
+  width: 400px;
+  align-self: center;
+  margin-top: 30px;
+}
+
+.location {
+  font-family: 'Lora', sans-serif;
+  font-size: 60px;
+  color: #aaa;
+  transition: 1s;
+  display: inline-block;
+}
+
+#washington, #virginia, #indiana {
+  border: 2px solid #eee;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.twoCols {
+  display: flex;
+  justify-content: space-between;
+}
+
+.twoCols span {
+  font-size: 18px;
+  line-height: 2;
+  text-align: justify;
+  width: 60%;
+  margin-left: 20px;
+}
+
+.eof {
+  font-size: 18px;
+  text-align: center;
+  margin: 30px 0;
+}
+
+span.footnote {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  text-align: center;
+  color: gray;
+}
