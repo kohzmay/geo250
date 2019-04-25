@@ -13,9 +13,9 @@ class Routes extends Component {
       <Router>
         <Navbar />
         <div>
-          <Route exact path="https://kohzmay.github.io/geo250/" component={HomePage} />
-          <Route path="https://kohzmay.github.io/geo250/about-derechos" component={AboutDerechosPage} />
-          <Route path="https://kohzmay.github.io/geo250/resources" component={ResourcesPage} />
+          <Route exact path="/" component={HomePage} />
+          <Route path="/about-derechos" component={AboutDerechosPage} />
+          <Route path="/resources" component={ResourcesPage} />
         </div>
       </Router>
     );
