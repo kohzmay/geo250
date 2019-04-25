@@ -93,7 +93,7 @@ class DerechoEvent extends Component {
               </div>
             </div>
 
-            <a href="/about-derechos">
+            <a href="https://kohzmay.github.io/geo250/about-derechos">
               <div className="button">
                 Read more about the formation of derechos →
               </div>
@@ -196,7 +196,7 @@ class DerechoEvent extends Component {
           </div>
 
           <div className="eof"><b>■</b></div>
-          <span className="footnote"><a href="/resources">View References</a></span>
+          <span className="footnote"><a href="https://kohzmay.github.io/geo250/resources">View References</a></span>
         </div>
 
       </div>

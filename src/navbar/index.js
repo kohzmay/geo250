@@ -20,9 +20,9 @@ class Navbar extends Component {
           ☰
         </div>
         <ul className="nav" id="nav">
-          <li><a href="/">June 29, 2012</a></li>
-          <li><a href="/about-derechos">About Derechos</a></li>
-          <li><a href="/resources">Resources</a></li>
+          <li><a href="https://kohzmay.github.io/geo250/">June 29, 2012</a></li>
+          <li><a href="https://kohzmay.github.io/geo250/about-derechos">About Derechos</a></li>
+          <li><a href="https://kohzmay.github.io/geo250/resources">Resources</a></li>
         </ul>
       </div>
     );
