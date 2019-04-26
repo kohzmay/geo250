@@ -10,7 +10,6 @@ var APP_PATH = path.join(__dirname, 'dist');
 app.set('port', (process.env.PORT || 3000));
 
 app.get('*', function(req, res) {
-  console.log('this is firing');
   res.sendFile(APP_PATH), function(err) {
     if (err) {
       res.status(500).send(err)

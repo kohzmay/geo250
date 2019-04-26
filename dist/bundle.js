@@ -63,7 +63,7 @@
 /******/ 	}
 
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "5342f42a7d9a5807f875"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "364726bcd65113bec9a5"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 
@@ -602,7 +602,7 @@
 
 	var _routes2 = _interopRequireDefault(_routes);
 
-	var _serviceWorker = __webpack_require__(65);
+	var _serviceWorker = __webpack_require__(66);
 
 	var serviceWorker = _interopRequireWildcard(_serviceWorker);
 
@@ -25820,23 +25820,23 @@
 
 	var _homePage2 = _interopRequireDefault(_homePage);
 
-	var _aboutDerechosPage = __webpack_require__(50);
+	var _aboutDerechosPage = __webpack_require__(51);
 
 	var _aboutDerechosPage2 = _interopRequireDefault(_aboutDerechosPage);
 
-	var _resourcesPage = __webpack_require__(51);
+	var _resourcesPage = __webpack_require__(52);
 
 	var _resourcesPage2 = _interopRequireDefault(_resourcesPage);
 
-	__webpack_require__(52);
+	__webpack_require__(53);
 
-	__webpack_require__(57);
+	__webpack_require__(58);
 
-	__webpack_require__(59);
+	__webpack_require__(60);
 
-	__webpack_require__(61);
+	__webpack_require__(62);
 
-	__webpack_require__(63);
+	__webpack_require__(64);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -30090,7 +30090,7 @@
 
 	var _intro2 = _interopRequireDefault(_intro);
 
-	var _derechoEvent = __webpack_require__(49);
+	var _derechoEvent = __webpack_require__(50);
 
 	var _derechoEvent2 = _interopRequireDefault(_derechoEvent);
 
@@ -30145,7 +30145,7 @@
 /* 48 */
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -30156,6 +30156,10 @@
 	var _react = __webpack_require__(2);
 
 	var _react2 = _interopRequireDefault(_react);
+
+	var _introVideo = __webpack_require__(49);
+
+	var _introVideo2 = _interopRequireDefault(_introVideo);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -30175,44 +30179,44 @@
 	  }
 
 	  _createClass(Intro, [{
-	    key: "render",
+	    key: 'render',
 	    value: function render() {
 	      var _this2 = this;
 
 	      return _react2.default.createElement(
-	        "div",
+	        'div',
 	        { style: { "height": "100vh" } },
 	        _react2.default.createElement(
-	          "video",
-	          { autoPlay: true, muted: true, loop: true, id: "myVideo" },
-	          _react2.default.createElement("source", { src: "https://lh3.googleusercontent.com/8xgju5fqop_A4DWp10d1BujjZEkzzU1AWc9TBy_sYl07XPqwIKBirBaKBpiwNtx3cRuXh9k7VFBA0onPJ99h0FdECzXyQPNaDxY5DT7buD2bjTUdVJeNJwqPUNR-tjuC7Hv2gMRPcA=w2400", type: "video/mp4" })
+	          'video',
+	          { autoPlay: true, muted: true, loop: true, id: 'myVideo' },
+	          _react2.default.createElement('source', { src: './introVideo.mp4', type: 'video/mp4' })
 	        ),
 	        _react2.default.createElement(
-	          "div",
-	          { className: "overlay" },
+	          'div',
+	          { className: 'overlay' },
 	          _react2.default.createElement(
-	            "div",
-	            { className: "content" },
+	            'div',
+	            { className: 'content' },
 	            _react2.default.createElement(
-	              "h1",
+	              'h1',
 	              { style: { "letterSpacing": "3px" } },
-	              "The Derecho"
+	              'The Derecho'
 	            ),
 	            _react2.default.createElement(
-	              "h1",
+	              'h1',
 	              null,
-	              "Storm of 2012"
+	              'Storm of 2012'
 	            ),
-	            _react2.default.createElement("div", { className: "botBorder" }),
+	            _react2.default.createElement('div', { className: 'botBorder' }),
 	            _react2.default.createElement(
-	              "p",
-	              { id: "introP" },
-	              "Revisit the Ohio Valley/Mid-Atlantic Derecho of 2012, the terrible storm that devastated the Midwest and the mid-Atlantic."
+	              'p',
+	              { id: 'introP' },
+	              'Revisit the Ohio Valley/Mid-Atlantic Derecho of 2012, the terrible storm that devastated the Midwest and the mid-Atlantic.'
 	            )
 	          ),
-	          _react2.default.createElement("img", { onClick: function onClick() {
+	          _react2.default.createElement('img', { onClick: function onClick() {
 	              _this2.props.scrollTo();
-	            }, src: "https://lh3.googleusercontent.com/pb_vtOm6JGXqDSOFMEAQ_6dYFGnPqp8YMmx1AQjDf4RdO06k8zjdTdH9BwPAaodSQEzhLAsHi_u6BnCtMQoM-2qc5dyIf07dZNuXsphPE8FtVmCs_IdBE2Vpp0Nf3z9nKdIvxerusRUeHPWqksmjQSMFyR1W-VzFNkl70A3B3WHP9DRlBbBRGIG9PXbVIX-09CTe3t9HTkUdh4fnCR2AOUHe-T-tnMj5qVz0hLSkejwy1rRAhLG6xUpwB-COqdla7mWS7zn743rAjI53pU-z83qaHSngk7bMhy2qkwTnbxubN5H1dNDlNrFviN3cXkBhN-WuVMxoqbaeIsbsOOwIbAwPpl0h91Q6zGn1wFjNvgq1RnVxGgk1REdSpej7yy4ZAvGOoG3-nVB0vyyCW19GnsJT4Li9LT8lHAMXADwCN3I1tf3lwtiH9-R9RPgmTPIzPPVeNjr8db0R69Sm3diUN9lRSEpn1K-JZT2cT9Bv_nj5JiNutxxFWbQmomO_B6VePcmNAExtefHEa5XNxe8BXu2x4j1xNdhc3yLFMmOEiQRZYKsHHcXB_6qwMrLIFbB0VjxSsqj__xQNQC5PEu08aUDPGtdxRzyIxGU6gV18-jc0espuDDsXqzqlZ1ezQGJXLl8-Cen5dRCUwwcsPoiy7EBbzpqtrgk=s512-no", width: "50px", height: "50px", id: "arrow" })
+	            }, src: 'https://lh3.googleusercontent.com/pb_vtOm6JGXqDSOFMEAQ_6dYFGnPqp8YMmx1AQjDf4RdO06k8zjdTdH9BwPAaodSQEzhLAsHi_u6BnCtMQoM-2qc5dyIf07dZNuXsphPE8FtVmCs_IdBE2Vpp0Nf3z9nKdIvxerusRUeHPWqksmjQSMFyR1W-VzFNkl70A3B3WHP9DRlBbBRGIG9PXbVIX-09CTe3t9HTkUdh4fnCR2AOUHe-T-tnMj5qVz0hLSkejwy1rRAhLG6xUpwB-COqdla7mWS7zn743rAjI53pU-z83qaHSngk7bMhy2qkwTnbxubN5H1dNDlNrFviN3cXkBhN-WuVMxoqbaeIsbsOOwIbAwPpl0h91Q6zGn1wFjNvgq1RnVxGgk1REdSpej7yy4ZAvGOoG3-nVB0vyyCW19GnsJT4Li9LT8lHAMXADwCN3I1tf3lwtiH9-R9RPgmTPIzPPVeNjr8db0R69Sm3diUN9lRSEpn1K-JZT2cT9Bv_nj5JiNutxxFWbQmomO_B6VePcmNAExtefHEa5XNxe8BXu2x4j1xNdhc3yLFMmOEiQRZYKsHHcXB_6qwMrLIFbB0VjxSsqj__xQNQC5PEu08aUDPGtdxRzyIxGU6gV18-jc0espuDDsXqzqlZ1ezQGJXLl8-Cen5dRCUwwcsPoiy7EBbzpqtrgk=s512-no', width: '50px', height: '50px', id: 'arrow' })
 	        )
 	      );
 	    }
@@ -30225,6 +30229,12 @@
 
 /***/ },
 /* 49 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "introVideo.mp4";
+
+/***/ },
+/* 50 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -30352,6 +30362,12 @@
 	            )
 	          ),
 	          _react2.default.createElement("img", { src: "https://lh3.googleusercontent.com/xuaCvxY80vWnjC8ZxTFQaAGRP3ci5J5Zpcy2hS5gc-1if78f2ndpsc5gzxxipijU_UE726b_UQaDOQvRT_M5md_TYDdG_BYkUG_89hvkuOi4X_CQyA0vLmNwmKwv9Db1N7TMBpaw9YA7ioc_sAnw9psLnXDjwPz3cbIODij3_7JPiItpK7z8mZJ1-GUZgs3p19oqXEDghPImJ-1rTD3QROrD-tMqKFz4rxVrnj7Awh0gRUXzJ-nx7hvGFn-AgIjrLoXIvX0zxj7WAXu2JGWGklbGsIzYvFTr0mYCI0q631xoi4lPvoHVSh1fwbS6zIukvRm33vfCojkdp20carVm7lcfZqvU_uytrY5SVfIsP4h4kGRXnHrp4GiC6pgQFB159nDtkSt9MZ9R19--QVcLpVrzoN6tm_ZYjhoc6VC5tUHvXcTFb6JU3M10hgcp1lL20uRn3RmFLGQ9DjXIw_-KZnzAfk2ATjbMnE_jryUdmxK1So_4npnX4fq5BcasEjnHBo86oRWws35X-RIS1a92T195P72CfnWupgU6Qknw2WVHoLFSQQ8vMnOsNAqd64oYGj2j4DbSd4jCki-lodg8vRG434OyBqw8EHjgWZ9k0kD_S32SUOJYWkHHjohOn8FJ__rPXDJ3AeIM7kAtM7TlDTYD06mcmSA=w1123-h659-no", width: "90%" }),
+	          _react2.default.createElement("br", null),
+	          _react2.default.createElement(
+	            "span",
+	            { "class": "caption" },
+	            "\u25B2 The shelf cloud formation that preceded the derecho event."
+	          ),
 	          _react2.default.createElement(
 	            "h3",
 	            null,
@@ -30360,7 +30376,7 @@
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "The June 29 derecho storm, now officially known as the Ohio Valley/Mid-Atlantic Derecho, was an intense wind storm that started out in northwest Indiana and began a 600-mile long path of destruction through the Midwest. Occurring in the middle of a record heat wave, the 2012 derecho was an unexpected event that will continue to live on in the minds of those who experienced it."
+	            "The June 29 derecho, now officially known as the Ohio Valley/Mid-Atlantic Derecho, was an intense wind storm that started out in northwest Indiana and began a 600 mile-long path of destruction through the Midwest. Occurring in the middle of a record heat wave, the 2012 derecho was an unexpected event that will continue to live on in the minds of those who experienced it."
 	          )
 	        ),
 	        _react2.default.createElement("br", null),
@@ -30372,6 +30388,11 @@
 	            "div",
 	            { className: "paragraph" },
 	            _react2.default.createElement(
+	              "span",
+	              { "class": "caption" },
+	              "\u25B2 This 24-hour infrared data satellite loop shows the path of the derecho, including its development, evolution, and death, on June 29, 2012."
+	            ),
+	            _react2.default.createElement(
 	              "h3",
 	              null,
 	              "A Brewing Storm"
@@ -30379,7 +30400,7 @@
 	            _react2.default.createElement(
 	              "p",
 	              null,
-	              "No one could have predicted the derecho. Several places throughout the southern Plains, such as Charlotte, Nashville, and Raleigh were all experiencing record-setting maximum temperatures in June \u2013 all above 100\xB0F, with Nashville hitting a staggering 109\xB0F. Washington D.C.\u2019s high of 104\xB0F was the hottest temperature in June to be recorded in 142 years."
+	              "No one could have predicted the storm. Several places throughout the southern Plains, such as Charlotte, Nashville, and Raleigh were all experiencing record-setting maximum temperatures in June \u2013 all above 100\xB0F, with Nashville hitting a staggering 109\xB0F. Washington D.C.\u2019s high of 104\xB0F was the hottest temperature in June to be recorded in 142 years."
 	            ),
 	            _react2.default.createElement(
 	              "p",
@@ -30452,7 +30473,7 @@
 	            ),
 	            _react2.default.createElement(
 	              "a",
-	              { href: "https://kohzmay.github.io/geo250/about-derechos" },
+	              { href: "/about-derechos" },
 	              _react2.default.createElement(
 	                "div",
 	                { className: "button" },
@@ -30673,7 +30694,7 @@
 	exports.default = DerechoEvent;
 
 /***/ },
-/* 50 */
+/* 51 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -30716,7 +30737,7 @@
 	          { style: { "color": "#fff" } },
 	          "About Derechos"
 	        ),
-	        _react2.default.createElement("div", { className: "botBorder-black" }),
+	        _react2.default.createElement("div", { className: "botBorder" }),
 	        _react2.default.createElement(
 	          "div",
 	          { className: "contentWhite" },
@@ -30845,8 +30866,8 @@
 	            _react2.default.createElement("img", { src: "https://www.spc.noaa.gov/misc/AbtDerechos/images/misc/piccld79jul24.png" }),
 	            _react2.default.createElement("img", { src: "https://cdn.vox-cdn.com/thumbor/u9oUtjaUe2MUrsR8FqXEQEhkBWc=/0x0:727x485/1200x800/filters:focal(304x244:420x360)/cdn.vox-cdn.com/uploads/chorus_image/image/59731361/nats8odipwx01.1526330812.jpg" }),
 	            _react2.default.createElement(
-	              "p",
-	              { style: { "color": "#ffffff", "fontSize": "14px", "lineHeight": "1.5" } },
+	              "span",
+	              { className: "caption" },
 	              "\u25B2 Although derechos aren't necessarily associated with a particular cloud formation, they are often preceded by ominous ",
 	              _react2.default.createElement(
 	                "b",
@@ -30867,7 +30888,7 @@
 	exports.default = AboutDerechosPage;
 
 /***/ },
-/* 51 */
+/* 52 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -30964,6 +30985,13 @@
 	            null,
 	            "Media"
 	          ),
+	          _react2.default.createElement("br", null),
+	          _react2.default.createElement(
+	            "b",
+	            null,
+	            "Home"
+	          ),
+	          _react2.default.createElement("br", null),
 	          _react2.default.createElement(
 	            "p",
 	            null,
@@ -30977,7 +31005,7 @@
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "Derecho's path GIF: https://www.spc.noaa.gov/misc/AbtDerechos/casepages/jun292012page.htm"
+	            "Derecho GIF: https://www.spc.noaa.gov/misc/AbtDerechos/casepages/jun292012page.htm"
 	          ),
 	          _react2.default.createElement(
 	            "p",
@@ -31017,11 +31045,11 @@
 	exports.default = ResourcesPage;
 
 /***/ },
-/* 52 */
+/* 53 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
-	var content = __webpack_require__(53);
+	var content = __webpack_require__(54);
 
 	if(typeof content === 'string') content = [[module.id, content, '']];
 
@@ -31035,13 +31063,13 @@
 	options.transform = transform
 	options.insertInto = undefined;
 
-	var update = __webpack_require__(55)(content, options);
+	var update = __webpack_require__(56)(content, options);
 
 	if(content.locals) module.exports = content.locals;
 
 	if(true) {
-		module.hot.accept(53, function() {
-			var newContent = __webpack_require__(53);
+		module.hot.accept(54, function() {
+			var newContent = __webpack_require__(54);
 
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 
@@ -31067,10 +31095,10 @@
 	}
 
 /***/ },
-/* 53 */
+/* 54 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(54)(false);
+	exports = module.exports = __webpack_require__(55)(false);
 	// imports
 
 
@@ -31081,7 +31109,7 @@
 
 
 /***/ },
-/* 54 */
+/* 55 */
 /***/ function(module, exports) {
 
 	/*
@@ -31163,7 +31191,7 @@
 
 
 /***/ },
-/* 55 */
+/* 56 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*
@@ -31232,7 +31260,7 @@
 	var	singletonCounter = 0;
 	var	stylesInsertedAtTop = [];
 
-	var	fixUrls = __webpack_require__(56);
+	var	fixUrls = __webpack_require__(57);
 
 	module.exports = function(list, options) {
 		if (false) {
@@ -31569,7 +31597,7 @@
 
 
 /***/ },
-/* 56 */
+/* 57 */
 /***/ function(module, exports) {
 
 	
@@ -31664,11 +31692,11 @@
 
 
 /***/ },
-/* 57 */
+/* 58 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
-	var content = __webpack_require__(58);
+	var content = __webpack_require__(59);
 
 	if(typeof content === 'string') content = [[module.id, content, '']];
 
@@ -31682,13 +31710,13 @@
 	options.transform = transform
 	options.insertInto = undefined;
 
-	var update = __webpack_require__(55)(content, options);
+	var update = __webpack_require__(56)(content, options);
 
 	if(content.locals) module.exports = content.locals;
 
 	if(true) {
-		module.hot.accept(58, function() {
-			var newContent = __webpack_require__(58);
+		module.hot.accept(59, function() {
+			var newContent = __webpack_require__(59);
 
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 
@@ -31712,27 +31740,27 @@
 
 		module.hot.dispose(function() { update(); });
 	}
-
-/***/ },
-/* 58 */
-/***/ function(module, exports, __webpack_require__) {
-
-	exports = module.exports = __webpack_require__(54)(false);
-	// imports
-
-
-	// module
-	exports.push([module.id, "@keyframes MoveUpDown {\n  0%, 100% {\n    bottom: 0;\n  }\n  50% {\n    bottom: 10px;\n  }\n}\n\n#myVideo {\n  position: fixed;\n  right: 0;\n  bottom: 0;\n  min-width: 100%;\n  min-height: 100%;\n  z-index: -2;\n}\n\n.overlay {\n  position: relative;\n  right: 0;\n  bottom: 0;\n  min-width: 100%;\n  min-height: 100%;\n  background-color: rgba(0, 0, 0, 0.5);\n  text-align: center;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  flex-direction: column;\n}\n\n#introP {\n  font-size: 16px;\n}\n\n.content {\n  width: 300px;\n  color: white;\n  margin-top: 150px;\n  border: 2px solid white;\n  padding: 50px;\n}\n\nimg#arrow {\n  animation: MoveUpDown 3s linear infinite;\n  width: 50px;\n  height: 50px;\n  bottom: 0;\n  position: absolute;\n}\n\nimg#arrow:hover {\n  cursor: pointer;\n}\n\n.botBorder {\n  border: 3px solid white;\n  width: 80px;\n  margin-left: 107px;\n  margin-top: 30px;\n  margin-bottom: 30px;\n}\n\n.botBorder-black {\n  border: 3px solid black;\n  width: 80px;\n  margin-top: 30px;\n  margin-bottom: 30px;\n}\n\n/* derechoEvent.js */\n#derechoSection {\n  background-color: #ffffff;\n  display: flex;\n  justify-content: center;\n  padding: 100px 0;\n  flex-direction: column;\n  justify-items: center;\n  align-items: center;\n}\n\n.titleContents {\n  width: 1000px;\n  display: flex;\n\n}\n\n#introduction {\n  width: 1000px;\n  text-align: right;\n  margin-top: 50px;\n}\n\n#brewingStorm {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  width: 100%;\n}\n\nul#contents {\n  background-color: #ffffff;\n  padding: 50px 40px;\n  border: 2px solid black;\n  position: absolute;\n  margin: 0;\n  text-align: left;\n  margin-top: 50px;\n}\n\nul#contents li {\n  list-style-type: none;\n  margin: 15px 0;\n}\n\n.paragraph {\n  width: 1000px;\n  align-self: center;\n  display: flex;\n  flex-direction: column;\n}\n\n.point {\n  display: flex;\n  margin-bottom: 15px;\n  padding-bottom: 15px;\n  border-bottom: 1px solid #ddd;\n}\n\n.icon {\n  width: 180px;\n  align-self: center;\n  text-align: center;\n}\n\n.desc {\n  font-size: 18px;\n  line-height: 2;\n  text-align: justify;\n  align-self: center;\n}\n\na .button {\n  border: 1px solid #ddd;\n  border-radius: 5px;\n  padding: 10px;\n  font-family: 'Open Sans', sans-serif;\n  font-size: 12px;\n  color: gray;\n  transition: .5s;\n  display: inline-block;\n  float: right;\n}\n\na .button:hover {\n  background-color: #dddddd;\n  color: black;\n}\n\n.quote {\n  font-family: 'Lora', serif;\n  font-size: 25px;\n  font-style: italic;\n  line-height: 1.8;\n  letter-spacing: 1px;\n  color: #aaa;\n  text-align: center;\n  width: 400px;\n  align-self: center;\n  margin-top: 30px;\n}\n\n.location {\n  font-family: 'Lora', sans-serif;\n  font-size: 60px;\n  color: #aaa;\n  transition: 1s;\n  display: inline-block;\n}\n\n#washington, #virginia, #indiana {\n  border: 2px solid #eee;\n  padding: 20px;\n  margin-bottom: 20px;\n}\n\n.twoCols {\n  display: flex;\n  justify-content: space-between;\n}\n\n.twoCols span {\n  font-size: 18px;\n  line-height: 2;\n  text-align: justify;\n  width: 60%;\n  margin-left: 20px;\n}\n\n.eof {\n  font-size: 18px;\n  text-align: center;\n  margin: 30px 0;\n}\n\nspan.footnote {\n  font-family: 'Open Sans', sans-serif;\n  font-size: 12px;\n  text-align: center;\n  color: gray;\n}\n", ""]);
-
-	// exports
-
 
 /***/ },
 /* 59 */
 /***/ function(module, exports, __webpack_require__) {
 
+	exports = module.exports = __webpack_require__(55)(false);
+	// imports
+
+
+	// module
+	exports.push([module.id, "@keyframes MoveUpDown {\n  0%, 100% {\n    bottom: 0;\n  }\n  50% {\n    bottom: 10px;\n  }\n}\n\n#myVideo {\n  position: fixed;\n  right: 0;\n  bottom: 0;\n  min-width: 100%;\n  min-height: 100%;\n  z-index: -2;\n}\n\n.overlay {\n  position: relative;\n  right: 0;\n  bottom: 0;\n  min-width: 100%;\n  min-height: 100%;\n  background-color: rgba(0, 0, 0, 0.5);\n  text-align: center;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  flex-direction: column;\n}\n\n#introP {\n  font-size: 16px;\n}\n\n.content {\n  width: 300px;\n  color: white;\n  margin-top: 150px;\n  border: 2px solid white;\n  padding: 50px;\n  display: flex;\n  flex-direction: column;\n}\n\nimg#arrow {\n  animation: MoveUpDown 3s linear infinite;\n  width: 50px;\n  height: 50px;\n  bottom: 0;\n  position: absolute;\n}\n\nimg#arrow:hover {\n  cursor: pointer;\n}\n\n.botBorder {\n  border: 3px solid white;\n  width: 80px;\n  margin-top: 30px;\n  margin-bottom: 30px;\n  align-self: center;\n}\n\n.botBorder-black {\n  border: 3px solid black;\n  width: 80px;\n  margin-top: 30px;\n  margin-bottom: 30px;\n}\n\n/* derechoEvent.js */\n#derechoSection {\n  background-color: #ffffff;\n  display: flex;\n  justify-content: center;\n  padding: 100px 0;\n  flex-direction: column;\n  justify-items: center;\n  align-items: center;\n}\n\n.titleContents {\n  width: 1000px;\n  display: flex;\n\n}\n\n#introduction {\n  width: 1000px;\n  text-align: right;\n  margin-top: 50px;\n}\n\n#brewingStorm {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  width: 100%;\n}\n\nul#contents {\n  background-color: #ffffff;\n  padding: 50px 40px;\n  border: 2px solid black;\n  position: absolute;\n  margin: 0;\n  text-align: left;\n  margin-top: 50px;\n}\n\nul#contents li {\n  list-style-type: none;\n  margin: 15px 0;\n}\n\nul#contents li:hover {\n  cursor: pointer;\n  text-decoration: underline;\n}\n\n.paragraph {\n  width: 1000px;\n  align-self: center;\n  display: flex;\n  flex-direction: column;\n}\n\n.point {\n  display: flex;\n  margin-bottom: 15px;\n  padding-bottom: 15px;\n  border-bottom: 1px solid #ddd;\n}\n\n.icon {\n  width: 180px;\n  align-self: center;\n  text-align: center;\n}\n\n.desc {\n  font-size: 18px;\n  line-height: 2;\n  text-align: justify;\n  align-self: center;\n}\n\na .button {\n  border: 1px solid #ddd;\n  border-radius: 5px;\n  padding: 10px;\n  font-family: 'Open Sans', sans-serif;\n  font-size: 12px;\n  color: gray;\n  transition: .5s;\n  display: inline-block;\n  float: right;\n}\n\na .button:hover {\n  background-color: #dddddd;\n  color: black;\n}\n\n.quote {\n  font-family: 'Lora', serif;\n  font-size: 25px;\n  font-style: italic;\n  line-height: 1.8;\n  letter-spacing: 1px;\n  color: #aaa;\n  text-align: center;\n  width: 400px;\n  align-self: center;\n  margin-top: 30px;\n}\n\n.location {\n  font-family: 'Lora', sans-serif;\n  font-size: 60px;\n  color: #aaa;\n  transition: 1s;\n  display: inline-block;\n}\n\n#washington, #virginia, #indiana {\n  border: 2px solid #eee;\n  padding: 20px;\n  margin-bottom: 20px;\n}\n\n.twoCols {\n  display: flex;\n  justify-content: space-between;\n}\n\n.twoCols span {\n  font-size: 18px;\n  line-height: 2;\n  text-align: justify;\n  width: 60%;\n  margin-left: 20px;\n}\n\n.eof {\n  font-size: 18px;\n  text-align: center;\n  margin: 30px 0;\n}\n\nspan.footnote, span.footnote a {\n  font-family: 'Open Sans', sans-serif;\n  font-size: 12px;\n  text-align: center;\n  color: gray;\n  text-decoration: none;\n}\n\nspan.footnote a:hover {\n  text-decoration: underline;\n}\n\nspan.caption {\n  font-family: 'Open Sans', sans-serif;\n  font-size: 14px;\n  color: gray;\n  font-style: italic;\n  line-height: 1.5;\n  text-align: left;\n}\n", ""]);
+
+	// exports
+
+
+/***/ },
+/* 60 */
+/***/ function(module, exports, __webpack_require__) {
+
 	
-	var content = __webpack_require__(60);
+	var content = __webpack_require__(61);
 
 	if(typeof content === 'string') content = [[module.id, content, '']];
 
@@ -31746,13 +31774,13 @@
 	options.transform = transform
 	options.insertInto = undefined;
 
-	var update = __webpack_require__(55)(content, options);
+	var update = __webpack_require__(56)(content, options);
 
 	if(content.locals) module.exports = content.locals;
 
 	if(true) {
-		module.hot.accept(60, function() {
-			var newContent = __webpack_require__(60);
+		module.hot.accept(61, function() {
+			var newContent = __webpack_require__(61);
 
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 
@@ -31778,10 +31806,10 @@
 	}
 
 /***/ },
-/* 60 */
+/* 61 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(54)(false);
+	exports = module.exports = __webpack_require__(55)(false);
 	// imports
 
 
@@ -31792,11 +31820,11 @@
 
 
 /***/ },
-/* 61 */
+/* 62 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
-	var content = __webpack_require__(62);
+	var content = __webpack_require__(63);
 
 	if(typeof content === 'string') content = [[module.id, content, '']];
 
@@ -31810,13 +31838,13 @@
 	options.transform = transform
 	options.insertInto = undefined;
 
-	var update = __webpack_require__(55)(content, options);
+	var update = __webpack_require__(56)(content, options);
 
 	if(content.locals) module.exports = content.locals;
 
 	if(true) {
-		module.hot.accept(62, function() {
-			var newContent = __webpack_require__(62);
+		module.hot.accept(63, function() {
+			var newContent = __webpack_require__(63);
 
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 
@@ -31842,10 +31870,10 @@
 	}
 
 /***/ },
-/* 62 */
+/* 63 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(54)(false);
+	exports = module.exports = __webpack_require__(55)(false);
 	// imports
 
 
@@ -31856,11 +31884,11 @@
 
 
 /***/ },
-/* 63 */
+/* 64 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
-	var content = __webpack_require__(64);
+	var content = __webpack_require__(65);
 
 	if(typeof content === 'string') content = [[module.id, content, '']];
 
@@ -31874,13 +31902,13 @@
 	options.transform = transform
 	options.insertInto = undefined;
 
-	var update = __webpack_require__(55)(content, options);
+	var update = __webpack_require__(56)(content, options);
 
 	if(content.locals) module.exports = content.locals;
 
 	if(true) {
-		module.hot.accept(64, function() {
-			var newContent = __webpack_require__(64);
+		module.hot.accept(65, function() {
+			var newContent = __webpack_require__(65);
 
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 
@@ -31906,10 +31934,10 @@
 	}
 
 /***/ },
-/* 64 */
+/* 65 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(54)(false);
+	exports = module.exports = __webpack_require__(55)(false);
 	// imports
 
 
@@ -31920,7 +31948,7 @@
 
 
 /***/ },
-/* 65 */
+/* 66 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';

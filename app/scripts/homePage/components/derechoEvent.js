@@ -44,12 +44,14 @@ class DerechoEvent extends Component {
             </ul>
           </div>
           <img src="https://lh3.googleusercontent.com/xuaCvxY80vWnjC8ZxTFQaAGRP3ci5J5Zpcy2hS5gc-1if78f2ndpsc5gzxxipijU_UE726b_UQaDOQvRT_M5md_TYDdG_BYkUG_89hvkuOi4X_CQyA0vLmNwmKwv9Db1N7TMBpaw9YA7ioc_sAnw9psLnXDjwPz3cbIODij3_7JPiItpK7z8mZJ1-GUZgs3p19oqXEDghPImJ-1rTD3QROrD-tMqKFz4rxVrnj7Awh0gRUXzJ-nx7hvGFn-AgIjrLoXIvX0zxj7WAXu2JGWGklbGsIzYvFTr0mYCI0q631xoi4lPvoHVSh1fwbS6zIukvRm33vfCojkdp20carVm7lcfZqvU_uytrY5SVfIsP4h4kGRXnHrp4GiC6pgQFB159nDtkSt9MZ9R19--QVcLpVrzoN6tm_ZYjhoc6VC5tUHvXcTFb6JU3M10hgcp1lL20uRn3RmFLGQ9DjXIw_-KZnzAfk2ATjbMnE_jryUdmxK1So_4npnX4fq5BcasEjnHBo86oRWws35X-RIS1a92T195P72CfnWupgU6Qknw2WVHoLFSQQ8vMnOsNAqd64oYGj2j4DbSd4jCki-lodg8vRG434OyBqw8EHjgWZ9k0kD_S32SUOJYWkHHjohOn8FJ__rPXDJ3AeIM7kAtM7TlDTYD06mcmSA=w1123-h659-no" width="90%" />
+          <br />
+          <span class="caption">▲ The shelf cloud formation that preceded the derecho event.</span>
 
           <h3>Introduction</h3>
 
           <p>
-            The June 29 derecho storm, now officially known as the Ohio Valley/Mid-Atlantic Derecho, was an intense wind storm that
-            started out in northwest Indiana and began a 600-mile long path of destruction through the Midwest. Occurring in the
+            The June 29 derecho, now officially known as the Ohio Valley/Mid-Atlantic Derecho, was an intense wind storm that
+            started out in northwest Indiana and began a 600 mile-long path of destruction through the Midwest. Occurring in the
             middle of a record heat wave, the 2012 derecho was an unexpected event that will continue to live on in the minds of those
             who experienced it.
           </p>
@@ -61,9 +63,11 @@ class DerechoEvent extends Component {
           <img src="https://www.spc.noaa.gov/misc/AbtDerechos/images/2012jun29/12jun29_loop_ir.gif"/>
 
           <div className="paragraph">
+            <span class="caption">▲ This 24-hour infrared data satellite loop shows the path of the derecho, including its
+            development, evolution, and death, on June 29, 2012.</span>
             <h3>A Brewing Storm</h3>
             <p>
-              No one could have predicted the derecho. Several places throughout the southern Plains, such as Charlotte, Nashville, and
+              No one could have predicted the storm. Several places throughout the southern Plains, such as Charlotte, Nashville, and
               Raleigh were all experiencing record-setting maximum temperatures in June – all above 100°F, with Nashville hitting a
               staggering 109°F. Washington D.C.’s high of 104°F was the hottest temperature in June to be recorded in 142 years.
             </p>
@@ -93,7 +97,7 @@ class DerechoEvent extends Component {
               </div>
             </div>
 
-            <a href="https://kohzmay.github.io/geo250/about-derechos">
+            <a href="/about-derechos">
               <div className="button">
                 Read more about the formation of derechos →
               </div>

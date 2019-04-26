@@ -6,7 +6,7 @@ class AboutDerechosPage extends Component {
     return (
       <div id="derechoSection-2" style={{ "backgroundImage": "url('https://lh3.googleusercontent.com/Rr2A8T9RkgZ79ABp25b-lbJoP9hsPeLRB5rkI1on_pawaRX4Dm7LusvErknQFntQwC5-Tul4eEjBEya6DM3oJrlcRCdMx7L0gAMYExkHo5BfhCOv1DXYrakBM7KewIVL755mdpfgINahSKGCFSEBkCH_tzG-SOntAWPky3fiBG3LD7P6elDIGNhTVpM2a00pyJ_gw44kKREHB5cw8oMzYudogXBd3JLMF4dFsSOE79w1I_LXm4Z4R3VMp1tSGSsYFQNWBctUplqDnc926d5HdkzGeVSSu7ur7xT5RYmj5XEnc8gZbFghnOb2QNRSI0AjEqUxpVwSg2VhXinZzF-CXn9bKLamJ-2ItPPfUkH37yyb6ROwbUHeqvVFSVi8S5fOpo8-kVltNW_NKYgx4fUf905vgHhH40Q5gz52QangEsI_8Ohn_biF6VGHwF732H9HESm1ufg0-9DFBI6ilT-IplYHbrL3DgqJHo8_mM8GmJB3j1MT5S4tBk9IB14djuIBbZ2mJlsY84kp0piL6429DnE22QnxOwPUwjN4j49ntsbSpTfibv5eZkgMLvDgmThOHfDus3CI8G8mNTZZeLXFfoY00keUSnFoY9YJWOlHYCOsz96O-HR0EmUfaWFk-pGFjH18BvaDQoouNX4HawWJPle6_Li37Sg=w2000-h983-no')" }}>
         <h2 style={{ "color": "#fff" }}>About Derechos</h2>
-        <div className="botBorder-black"></div>
+        <div className="botBorder"></div>
 
           <div className="contentWhite">
             <h3>What<br />Are<br />Derechos?</h3>
@@ -65,8 +65,8 @@ class AboutDerechosPage extends Component {
             <div className="images">
               <img src="https://www.spc.noaa.gov/misc/AbtDerechos/images/misc/piccld79jul24.png" />
               <img src="https://cdn.vox-cdn.com/thumbor/u9oUtjaUe2MUrsR8FqXEQEhkBWc=/0x0:727x485/1200x800/filters:focal(304x244:420x360)/cdn.vox-cdn.com/uploads/chorus_image/image/59731361/nats8odipwx01.1526330812.jpg" />
-              <p style={{ "color": "#ffffff", "fontSize": "14px", "lineHeight": "1.5" }}>▲ Although derechos aren't necessarily associated with a
-              particular cloud formation, they are often preceded by ominous <b>shelf clouds</b>.</p>
+              <span className="caption">▲ Although derechos aren't necessarily associated with a
+              particular cloud formation, they are often preceded by ominous <b>shelf clouds</b>.</span>
             </div>
           </div>
       </div>

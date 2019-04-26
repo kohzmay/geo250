@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import introVideo from '../../../media/introVideo.mp4';
+
 class Intro extends Component {
   constructor(props) {
     super(props);
@@ -9,7 +11,7 @@ class Intro extends Component {
     return (
       <div style={{ "height": "100vh" }}>
         <video autoPlay muted loop id="myVideo">
-          <source src="https://lh3.googleusercontent.com/8xgju5fqop_A4DWp10d1BujjZEkzzU1AWc9TBy_sYl07XPqwIKBirBaKBpiwNtx3cRuXh9k7VFBA0onPJ99h0FdECzXyQPNaDxY5DT7buD2bjTUdVJeNJwqPUNR-tjuC7Hv2gMRPcA=w2400" type="video/mp4" />
+          <source src="./introVideo.mp4" type="video/mp4" />
         </video>
 
         <div className="overlay">

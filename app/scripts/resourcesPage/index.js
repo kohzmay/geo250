@@ -21,10 +21,12 @@ class ResourcesPage extends Component {
           <p>"Derechos: The Facts." WeatherWorks - Your Weather Experts. June 10, 2014. https://www.weatherworksinc.com/what-is-a-derecho.</p>
 
           <h3>Media</h3>
-
+          <br />
+          <b>Home</b>
+          <br />
           <p>Front page video: https://www.youtube.com/watch?v=SH2JAd7dlT4</p>
           <p>First image: https://www.weather.gov/iwx/20120629_derecho</p>
-          <p>Derecho's path GIF: https://www.spc.noaa.gov/misc/AbtDerechos/casepages/jun292012page.htm</p>
+          <p>Derecho GIF: https://www.spc.noaa.gov/misc/AbtDerechos/casepages/jun292012page.htm</p>
           <p>Icons: https://www.iconfinder.com/</p>
           <br />
           <b>About Derechos</b>
