@@ -15,7 +15,8 @@ module.exports = {
         loaders: [
             { test: /\.jsx?$/, exclude: /node_modules/, loader: "babel-loader" },
             { test: /\.css$/, loader: "style-loader!css-loader" },
-            { test: /\.(png|jpg|gif)$/, loader: "url-loader" }
+            { test: /\.(png|jpg|gif)$/, loader: "url-loader" },
+            { test: /\.mp4$/, loader: "file-loader?name=[name].[ext]"}
         ]
     },
     plugins: [
